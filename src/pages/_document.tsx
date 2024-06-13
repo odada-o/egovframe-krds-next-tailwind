@@ -5,6 +5,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <title>KRDS - next.js 템플릿</title>
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <body>
