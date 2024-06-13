@@ -5,10 +5,14 @@ import LinkPopup from './LinkPopup';
 import SearchPopup from './SearchPopup';
 import UserMenu from './UserMenu';
 import LanguageMenu from './LanguageMenu';
+import SkipNav from './SkipNav';
+import HeaderTop from './HeaderTop';
 
 const Header = () => {
     return (
         <>
+            <SkipNav />
+            <HeaderTop />
             {/* 헤더 영역 */}
             <header id="header">
                 {/* 헤더 컨텐츠 영역  */}

@@ -3,12 +3,6 @@ import React from 'react';
 const HeaderTop = () => {
     return (
         <>
-            {/* 본문 바로가기 영역 */}
-            <div id="skip-nav">
-                <a href="#container">본문 바로가기</a>
-            </div>
-            {/* // 본문 바로가기 영역 */}
-
             {/* 상단 배너영역  */}
             <div id="header-top">
                 <div className="toggle-wrap">
