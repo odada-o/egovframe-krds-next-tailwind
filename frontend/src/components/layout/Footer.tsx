@@ -25,13 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="inner">
-                <div className="f-logo">
-                    <img
-                        src="../../resources/img/pattern/layout/head_logo.svg"
-                        className="logo-im"
-                        alt="대한민국정부"
-                    />
-                </div>
+                <div className="f-logo">대한민국정부</div>
                 <div className="f-cnt">
                     <div className="f-info">
                         <p className="info-addr">(26464) 강원특별자치도 원주시 건강로 32(반곡동) 국민건강보험공단</p>

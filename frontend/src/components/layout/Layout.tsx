@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from './Header';
 import Footer from './Footer';
-import HeaderTop from './HeaderTop';
+import Header from './header';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div id="wrap">
-            <HeaderTop />
-            <Header />
-            <main id="main">{children}</main>
+            {/* <Header /> */}
+            <div id="container">
+                <div className="inner">{children}</div>
+            </div>
             <Footer />
         </div>
     );
